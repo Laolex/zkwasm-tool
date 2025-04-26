@@ -1,4 +1,7 @@
 [workspace]
-members = [
-    "zkwasm-prove"
-]
+members = ["wasm-add", "zkwasm-inspect", "zkwasm-prove", "wasm_test"]
+resolver = "3"
+
+[workspace.dependencies]
+clap = { version = "4.5", features = ["derive"] }
+wasmparser = "0.217.1"

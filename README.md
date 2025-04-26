@@ -27,7 +27,7 @@ cargo run -p zkwasm-prove -- path/to/your.wasm --input 4
 
 Inspect WASM binary sections and simulate execution.
 
-###### 📦 Workspace Structure
+## 📦 Workspace Structure
 
 zkwasm-tools/
 ├── Cargo.toml # workspace config
